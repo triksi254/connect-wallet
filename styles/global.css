@@ -1,0 +1,36 @@
+.connect-wallet{
+    position: relative;
+    display:flex;
+	width: 100vw;
+    height: 100vh;
+	justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+.connect-wallet p {
+    text-decoration: black;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.connect-wallet button{
+    background-color:brown; 
+    text-decoration-color: white;
+	border-radius:28px;
+	border:1px solid brown;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a9b1a8;
+}
+.connect-wallet button:hover {
+	background-color:rgba(165, 42, 42, 0.39);
+}
+.connect-wallet button:active {
+	position:relative;
+	top:1px;
+}
